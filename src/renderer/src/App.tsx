@@ -6,8 +6,9 @@ const App: React.FC = () => {
     <Styled.AppWrapper>
       App
       <Styled.CloseBtn
-        onClick={(e) => {
-          e.preventDefault();
+        onClick={() => {
+          window.close()
+          // e.preventDefault();
         }}
       >
         X

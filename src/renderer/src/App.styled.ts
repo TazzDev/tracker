@@ -11,6 +11,7 @@ align-items: center;
 `
 
 export const CloseBtn = styled.div`
+z-index: 9999999;
 cursor: pointer;
 background: red;
 display: flex;
